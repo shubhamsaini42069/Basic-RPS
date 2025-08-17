@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="wrapper">
+    <p id="title" >ROCK PAPER SCISSORS</p>
+    <div id="scoreboard">
+  <span id="wins">Wins = 0</span>
+  <span id="loses">Losses = 0</span>
+  <span id="draws">Draws = 0</span>
+  <span id="score">Total Score = 0</span>
+  <p id="computer-picked">COMPUTER PICKED</p>
+  <P>made by despererate depressed guy</P>
+</div> 
+    <button class="button circle-btn" onclick="rock()"><img src="assets/rock-emoji-removebg-preview.png" class="imgsrc"></button>
+    <button class="button circle-btn" onclick="paper()"><img src="assets/OIP-removebg-preview.png" class="imgsrc"></button>
+    <button class="button circle-btn"  onclick="scissors()"><img src="assets/hairstyle-tool-mobile-phones-iphone-scissors-removebg-preview.png" class="imgsrc"></button>
+    <button class="button circle-btn"  onclick="reset()"><img src="assets/reset-removebg-preview.png" class="imgsrc"></button>
+<div id="whatcomputerpicked">
+    <p id="insideimgsrc"></p>
+</div>
+    <script src="rps.js"></script>
+    </div>
+</body>
+</html>
